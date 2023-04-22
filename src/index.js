@@ -1,4 +1,4 @@
-import './pages/index.css';
+import './pages/index.scss';
 
 import headerImage from './images/header.jpg';
 import kendallImage from './images/kendall.jpg';
