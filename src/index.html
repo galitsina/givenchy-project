@@ -1,13 +1,32 @@
 <!DOCTYPE html>
-<html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Givenchy by Matthew M. Williams</title>
-      </head>
-  <body>
-    <h1>Hello</h1>
-    <img src="<%=require('./images/header.jpg')%>" alt="header">
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Givenchy by Matthew M. Williams</title>
+</head>
+
+<body class="page">
+  <header class="header">
+    <img class="header__img" src="<%=require('./images/header.jpg')%>" alt="Men in beige coat">
+    <div class="header__menu menu">
+      <div class="header__icon">
+        <button class="header__hamburger">
+          <span class="header__hamburger-line"></span>
+          <span class="header__hamburger-line"></span>
+          <span class="header__hamburger-line"></span>
+        </button>
+        <p class="header__menu-text">menu</p>
+      </div>
+      <nav class="menu__body">
+
+      </nav>
+    </div>
+  </header>
+  <main></main>
+  <footer></footer>
+</body>
+
 </html>

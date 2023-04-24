@@ -1,0 +1,11 @@
+@import '../../../helpers/mixins';
+
+.header__icon {
+  @include default_box;
+  padding-left: 24px;
+  padding-top: 32px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

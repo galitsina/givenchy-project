@@ -1,0 +1,10 @@
+@import '../../../helpers/mixins';
+
+.header__img {
+  @include image;
+  position: absolute;
+  top: 0;
+  left: 24px;
+  width: 700px;
+  height: 900px;
+}

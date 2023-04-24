@@ -1,0 +1,5 @@
+@import '../../../helpers/mixins';
+
+.header__icon {
+  @include default_box;
+}

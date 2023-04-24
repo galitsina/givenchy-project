@@ -1,10 +1,12 @@
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts.css);
-// @import url(../blocks/main.scss);
-$font-stack: Helvetica, sans-serif;
-$primary-color: #e84444;
+@import '../vendor/normalize.css';
+@import '../vendor/fonts.css';
+@import '../blocks/page/page';
+@import '../blocks/header/header';
+@import '../blocks/header/__img/header__img.scss';
+@import '../blocks/header/__icon/header__icon.scss';
+@import '../blocks/header/__hamburger/header__hamburger.scss';
+@import '../blocks/header/__hamburger-line/_hamburger-line';
+@import '../blocks/header/__menu-text/header__menu-text.scss';
 
-body {
-  font: 100% $font-stack;
-  color: $primary-color;
-}
+
+

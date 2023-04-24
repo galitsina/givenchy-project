@@ -1,0 +1,27 @@
+@mixin section {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding-bottom: 80px;
+}
+
+@mixin title {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+@mixin image {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
+  object-fit: cover;
+  z-index: 0;
+}
+
+@mixin default_box {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
