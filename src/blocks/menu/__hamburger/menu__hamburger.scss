@@ -1,7 +1,7 @@
 @import '../../../helpers/mixins';
 @import '../../../helpers/variables';
 
-.header__hamburger {
+.menu__hamburger {
   @include default_box;
   width: 48px;
   height: 48px;
@@ -14,8 +14,9 @@
   border: none;
   cursor: pointer;
   transition: ease 0.4s;
-}
+  z-index: 1;
 
-.header__hamburger:hover .header__hamburger-line {
-  background: $color-white;
+  &:hover .menu__hamburger-line {
+    background: $color-white;
+  }
 }

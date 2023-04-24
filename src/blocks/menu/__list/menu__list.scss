@@ -1,0 +1,13 @@
+@import '../../../helpers/mixins';
+
+.menu__list {
+  @include default_box;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  max-width: 480px;
+  padding-top: 313px;
+}

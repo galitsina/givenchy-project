@@ -3,10 +3,18 @@
 @import '../blocks/page/page';
 @import '../blocks/header/header';
 @import '../blocks/header/__img/header__img.scss';
-@import '../blocks/header/__icon/header__icon.scss';
-@import '../blocks/header/__hamburger/header__hamburger.scss';
-@import '../blocks/header/__hamburger-line/_hamburger-line';
-@import '../blocks/header/__menu-text/header__menu-text.scss';
+@import '../blocks/header/__heading/header__heading.scss';
+@import '../blocks/header/__title/header__title.scss';
 
-
+@import '../blocks/header/__subscribe/header__subscribe.scss';
+@import '../blocks/menu/menu.scss';
+@import '../blocks/menu/__icon/menu__icon.scss';
+@import '../blocks/menu/__hamburger/menu__hamburger.scss';
+@import '../blocks/menu/__hamburger-line/menu__hamburger-line.scss';
+@import '../blocks/menu/__hamburger-line/_active/menu__hamburger-line_active.scss';
+@import '../blocks/menu/__icon-text/menu__icon-text.scss';
+@import '../blocks/menu/__body/menu__body.scss';
+@import '../blocks/menu/__body/_active/menu__body_active.scss';
+@import '../blocks/menu/__list/menu__list.scss';
+@import '../blocks/menu/__link/menu__link.scss';
 

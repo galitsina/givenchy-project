@@ -1,0 +1,14 @@
+.menu__body {
+  height: 810px;
+  width: 100%;
+  background:  linear-gradient(
+    to right,
+    #000 0%,
+    #000 480px,
+    #666 480px,
+    #666 100%
+  );
+  position: absolute;
+  left: -100%;
+  top: 0;
+}

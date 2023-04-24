@@ -1,0 +1,10 @@
+@import '../../../helpers/mixins';
+@import '../../../helpers/variables';
+
+.header__title {
+  @include title;
+  font-size: $font-size-headline;
+  font-weight: $line-height-headline;
+  padding-bottom: 32px;
+  letter-spacing: $letter-spacing-4;
+}

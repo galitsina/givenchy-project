@@ -1,0 +1,9 @@
+@import '../../../helpers/mixins';
+
+.header__heading {
+  @include default_box;
+  position: absolute;
+  top: 310px;
+  right: 20px;
+  width: 700px;
+}

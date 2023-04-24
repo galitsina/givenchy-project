@@ -1,10 +1,11 @@
 import './pages/index.scss';
 
-import headerImage from './images/header.jpg';
-import kendallImage from './images/kendall.jpg';
+const menu = document.querySelector('.menu__body');
+const menuButton = document.querySelector('.menu__icon');
 
-const images = [
-  // меняем исходные пути на переменные
-  { name: 'Header', image: headerImage },
-  { name: 'Kendall', link: kendallImage },
-];
+if (menu && menuButton) {
+  menuButton.addEventListener('click', () => {
+    menu.classList.toggle('menu__body_active');
+    menuButton.classList.toggle('menu__hamburger_active');
+  })
+}

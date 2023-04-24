@@ -1,5 +1,6 @@
-@import '../../../helpers/mixins';
+@import '../../helpers/mixins';
 
-.header__icon {
+.menu {
   @include default_box;
+  position: relative;
 }

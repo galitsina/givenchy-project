@@ -11,22 +11,35 @@
 <body class="page">
   <header class="header">
     <img class="header__img" src="<%=require('./images/header.jpg')%>" alt="Men in beige coat">
-    <div class="header__menu menu">
-      <div class="header__icon">
-        <button class="header__hamburger">
-          <span class="header__hamburger-line"></span>
-          <span class="header__hamburger-line"></span>
-          <span class="header__hamburger-line"></span>
+    <div class="menu">
+      <div class="menu__icon">
+        <button class="menu__hamburger">
+          <span class="menu__hamburger-line"></span>
+          <span class="menu__hamburger-line"></span>
+          <span class="menu__hamburger-line"></span>
         </button>
-        <p class="header__menu-text">menu</p>
+        <p class="menu__icon-text">menu</p>
       </div>
       <nav class="menu__body">
-
+        <ul class="menu__list">
+          <li><a href="#about" class="menu__link">about</a></li>
+          <li><a href="#looks" class="menu__link">looks</a></li>
+          <li><a href="#subscribe" class="menu__link">subscribe</a></li>
+        </ul>
       </nav>
     </div>
+    <div class="header__heading">
+      <h1 class="header__title">givenchy spring&nbsp;summer&nbsp;2021 by&nbsp;matthew m. williams</h1>
+      <a href="#subscribe" class="header__subscribe">subscribe to collection's news</a>
+    </div>
   </header>
-  <main></main>
-  <footer></footer>
+  <main>
+    <section id="about" class="about">
+
+    </section>
+    <section id="looks" class=""></section>
+  </main>
+  <footer id="subscribe"></footer>
 </body>
 
 </html>
