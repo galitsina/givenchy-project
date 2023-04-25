@@ -17,4 +17,15 @@
     color: $color-black;
     background-color: $color-white;
   }
+
+  @media screen and (max-width: 767px) {
+    font-size: $font-size-paragraph-xxsmall;
+    line-height: $line-height-paragraph-xxsmall;
+    padding: 12px 13px;
+  }
+
+  @media screen and (max-width: 360px) {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }

@@ -2,10 +2,24 @@
 
 .header__heading {
   @include default_box;
-  padding: 310px 20px 330px 0;
+  margin: 310px 20px 330px 0;
   position: absolute;
   top: 0;
   right: 0;
-  width: 700px;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 
+  @media screen and (max-width: 1023px) {
+    margin: 223px 20px 235px 0;
+    max-width: 485px;
+  }
+  @media screen and (max-width: 767px) {
+    max-width: 280px;
+  }
+  @media screen and (max-width: 600px) {
+    margin: 111px 20px 123px 20px;
+    left: 0;
+  }
 }

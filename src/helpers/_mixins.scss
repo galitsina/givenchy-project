@@ -18,8 +18,8 @@
   padding: 0;
   box-sizing: border-box;
   display: block;
-  object-fit: cover;
   z-index: 0;
+  object-fit: cover;
 }
 
 @mixin default_box {
