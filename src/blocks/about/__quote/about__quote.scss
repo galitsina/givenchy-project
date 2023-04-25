@@ -1,0 +1,6 @@
+@import '../../../helpers/mixins';
+
+.about__quote {
+  @include default_box;
+
+}

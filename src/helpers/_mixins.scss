@@ -13,6 +13,13 @@
   text-transform: uppercase;
 }
 
+@mixin paragraph {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
 @mixin image {
   margin: 0;
   padding: 0;

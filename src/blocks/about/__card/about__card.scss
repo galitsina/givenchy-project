@@ -1,0 +1,16 @@
+@import '../../../helpers/mixins';
+
+.about__card {
+  @include default_box;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+  &:last-child {
+    margin-bottom: 0px;
+  }
+
+
+}

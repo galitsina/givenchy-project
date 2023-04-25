@@ -1,0 +1,13 @@
+@import '../../../helpers/mixins';
+
+.about__paragraph {
+  @include paragraph;
+  max-width: 700px;
+
+  @media screen and (max-width: 1023px) {
+    max-width: 364px;
+  }
+  @media screen and (max-width: 767px) {
+    max-width: 280px;
+  }
+}

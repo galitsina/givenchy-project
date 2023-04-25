@@ -1,0 +1,16 @@
+@import '../../../../helpers/variables';
+
+.about__paragraph_size_big {
+  width: 700px;
+  color: $color-black;
+  font-size: $font-size-paragraph-big;
+  line-height: $line-height-paragraph-big;
+  letter-spacing: $letter-spacing-2;
+
+  @media screen and (max-width: 767px) {
+    font-size: $font-size-paragraph-small;
+    line-height: 1.4;
+    letter-spacing: 0;
+  }
+}
+

@@ -1,0 +1,13 @@
+.about__quote_position_bella {
+  position: absolute;
+  left: 0;
+  top: 426px;
+
+  @media screen and (max-width: 1023px) {
+    top: 115px;
+  }
+
+  @media screen and (max-width: 767px) {
+    position: static;
+  }
+}
