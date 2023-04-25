@@ -3,8 +3,9 @@
 
 .header__title {
   @include title;
+  color: $color-black;
   font-size: $font-size-headline;
-  font-weight: $line-height-headline;
-  padding-bottom: 32px;
+  line-height: $line-height-headline;
+  padding-bottom: 44px;
   letter-spacing: $letter-spacing-4;
 }

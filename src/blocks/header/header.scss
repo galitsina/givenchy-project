@@ -2,8 +2,15 @@
 
 .header {
   @include section;
-  height: 900px;
+  min-height: 426px;
   position: relative;
   background-color: #E7E7E2;
   overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and (max-width: 1023px) {
+  }
+  @media screen and (max-width: 767px) {
+  }
 }

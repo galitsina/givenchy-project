@@ -2,9 +2,13 @@
 
 .header__img {
   @include image;
-  position: absolute;
-  top: 0;
-  left: 24px;
-  width: 700px;
-  height: 900px;
+  padding-left: 24px;
+  width: 724px;
+
+  @media screen and (max-width: 1023px) {
+    width: calc(100% - 282px);
+  }
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
 }

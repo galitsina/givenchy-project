@@ -1,5 +1,5 @@
 .menu__body {
-  height: 810px;
+  min-height: 810px;
   width: 100%;
   background:  linear-gradient(
     to right,
@@ -11,4 +11,6 @@
   position: absolute;
   left: -100%;
   top: 0;
+  z-index: 5;
+  transition: ease 0.1s;
 }

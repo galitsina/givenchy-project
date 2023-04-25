@@ -2,8 +2,10 @@
 
 .header__heading {
   @include default_box;
+  padding: 310px 20px 330px 0;
   position: absolute;
-  top: 310px;
-  right: 20px;
+  top: 0;
+  right: 0;
   width: 700px;
+
 }

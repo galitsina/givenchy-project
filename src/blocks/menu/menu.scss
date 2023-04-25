@@ -2,5 +2,6 @@
 
 .menu {
   @include default_box;
-  position: relative;
+  position: absolute;
+  width: 100%;
 }

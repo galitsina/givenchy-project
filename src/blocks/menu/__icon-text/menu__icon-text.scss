@@ -4,6 +4,7 @@
 .menu__icon-text {
   @include title;
   font-size: $font-size-paragraph-xsmall;
-  font-weight: $line-height-paragraph-xsmall;
+  line-height: $line-height-paragraph-xsmall;
   letter-spacing: $letter-spacing-2;
+  z-index: 1;
 }

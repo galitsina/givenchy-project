@@ -1,0 +1,16 @@
+@import '../../../../helpers/variables';
+
+.menu__hamburger_active {
+    .menu__hamburger-line {
+      background: $color-white;
+      transform: scale(0);
+      &:first-child {
+        transform: rotate(-45deg);
+        top: 15px;
+      }
+      &:last-child {
+        transform: rotate(45deg);
+        bottom: 15px;
+      }
+  }
+}
