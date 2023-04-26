@@ -3,6 +3,7 @@ import './pages/index.scss';
 const menu = document.querySelector('.menu__body');
 const menuButton = document.querySelector('.menu__hamburger');
 const body = document.body;
+// const checkboxButton = document.querySelector('.menu__hamburger');
 
 if (menu && menuButton) {
   menuButton.addEventListener('click', () => {

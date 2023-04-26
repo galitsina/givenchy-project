@@ -32,13 +32,19 @@
 @import '../blocks/about/__quote/about__quote.scss';
 @import '../blocks/about/__quote/_position/about__quote_position_bella.scss';
 @import '../blocks/about/__quote/_position/about__quote_position_kendall.scss';
-
 @import '../blocks/looks/looks.scss';
 @import '../blocks/looks/__container/looks__container.css';
 @import '../blocks/looks/__title/looks__title.scss';
 @import '../blocks/looks/__grid/looks__grid.scss';
 @import '../blocks/looks/__grid-item/looks__grid-item.scss';
-
-
-
-
+@import '../blocks/footer/footer.scss';
+@import '../blocks/footer/__container/footer__container.scss';
+@import '../blocks/footer/__paragraph/footer__paragraph.scss';
+@import '../blocks/form/form.scss';
+@import '../blocks/form/__field-input/form__field-input.scss';
+@import '../blocks/form/__input/form__input.scss';
+@import '../blocks/form/__button-submit/form__button-submit.scss';
+@import '../blocks/form/__field-checkbox/form__field-checkbox.scss';
+@import '../blocks/form/__checkbox/form__checkbox.scss';
+@import '../blocks/form/__checkbox-item/form__checkbox-item.scss';
+@import '../blocks/form/__paragraph/form__paragraph.scss';

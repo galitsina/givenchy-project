@@ -1,0 +1,18 @@
+@import '../../../helpers/mixins';
+@import '../../../helpers/variables';
+
+.form__paragraph {
+  @include paragraph;
+  font-size: $font-size-paragraph-xsmall;
+  line-height: $line-height-paragraph-xsmall;
+  max-width: 668px;
+
+  @media screen and (max-width: 1023px) {
+    max-width: 454px;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: $font-size-paragraph-xxsmall;
+    line-height: $line-height-paragraph-xxsmall;
+    max-width: 248px;
+  }
+}

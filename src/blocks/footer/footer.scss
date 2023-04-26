@@ -1,0 +1,17 @@
+@import '../../helpers/mixins';
+@import '../../helpers/variables';
+
+.footer {
+  @include default_box;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: $color-black;
+  display: flex;
+
+  @media screen and (max-width: 1023px) {
+    padding: 40px 141px;
+  }
+  @media screen and (max-width: 767px) {
+    padding: 40px 20px;
+  }
+}

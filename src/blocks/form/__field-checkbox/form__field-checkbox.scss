@@ -1,0 +1,10 @@
+@import '../../../helpers/mixins';
+
+.form__field-checkbox {
+  @include default_box;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+}

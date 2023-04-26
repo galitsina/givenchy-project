@@ -98,9 +98,21 @@
   </main>
   <footer id="subscribe" class="footer">
     <div class="footer__container">
-      <h2 class="footer__subscribe"></h2>
-      <form></form>
-      <p class="footer__copyright"></p>
+      <h2 class="footer__paragraph">Subscribe to the newsletterand be the first to know about new collection's drop date
+        and news</h2>
+      <form class="form" name="email-form">
+        <div class="form__field-input">
+          <input type="email" class="form__input" id="email-input" required placeholder="Enter your email  here">
+          <button class="form__button-submit" type="submit">submit</button>
+        </div>
+        <label class="form__field-checkbox">
+          <input type="checkbox" class="form__checkbox" id="form-checkbox" required>
+          <span class="form__checkbox-item"></span>
+          <span class="form__paragraph">I consent to the processing of my data by GIVENCHY
+            in accordance with the conditions set forth in the Privacy Policy</span>
+        </label>
+      </form>
+      <p class="footer__paragraph">&copy;2021, Givenchy. Some rights reserved</p>
     </div>
   </footer>
 </body>

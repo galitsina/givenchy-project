@@ -1,0 +1,18 @@
+@import '../../../helpers/mixins';
+@import '../../../helpers/variables';
+
+.form__checkbox-item {
+  @include default_box;
+  margin-left: 2px;
+  margin-top: 2px;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  color: $color-white;
+  border: 1px $color-white solid;
+  cursor: pointer;
+}
+
+.form__checkbox:checked + .form__checkbox-item {
+  background: no-repeat center url('../images/checkbox-vector.svg');
+}
