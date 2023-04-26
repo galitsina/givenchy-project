@@ -3,10 +3,10 @@
   width: 100%;
   background:  linear-gradient(
     to right,
-    #000 0%,
-    #000 480px,
-    #666 480px,
-    #666 100%
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 480px,
+    rgba(0, 0, 0, 0.4) 480px,
+    rgba(0, 0, 0, 0.4) 100%
   );
   position: absolute;
   left: -100%;
@@ -18,10 +18,10 @@
     min-height: 360px;
     background:  linear-gradient(
     to right,
-    #000 0%,
-    #000 360px,
-    #666 360px,
-    #666 100%
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 360px,
+    rgba(0, 0, 0, 0.4) 360px,
+    rgba(0, 0, 0, 0.4) 100%
   );
   }
 }

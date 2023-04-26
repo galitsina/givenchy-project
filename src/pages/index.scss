@@ -17,7 +17,6 @@
 @import '../blocks/menu/__body/_active/menu__body_active.scss';
 @import '../blocks/menu/__list/menu__list.scss';
 @import '../blocks/menu/__link/menu__link.scss';
-
 @import '../blocks/about/about.scss';
 @import '../blocks/about/__heading/about__heading.scss';
 @import '../blocks/about/__title/about__title.scss';
@@ -34,7 +33,12 @@
 @import '../blocks/about/__quote/_position/about__quote_position_bella.scss';
 @import '../blocks/about/__quote/_position/about__quote_position_kendall.scss';
 
-
 @import '../blocks/looks/looks.scss';
+@import '../blocks/looks/__container/looks__container.css';
+@import '../blocks/looks/__title/looks__title.scss';
+@import '../blocks/looks/__grid/looks__grid.scss';
+@import '../blocks/looks/__grid-item/looks__grid-item.scss';
+
+
 
 

@@ -1,4 +1,7 @@
-.looks {
-  height: 900px;
+@import '../../helpers/mixins';
 
+.looks {
+  @include section;
+  padding: 0 20px;
+  display: flex;
 }
