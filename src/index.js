@@ -10,9 +10,6 @@ import model8 from './images/looks/model-8.svg';
 import model9 from './images/looks/model-9.svg';
 import model10 from './images/looks/model-10.svg';
 
-const models = [
-  model1, model2, model3, model4, model5, model6, model7, model8, model9, model10
-]
 const menu = document.querySelector('.menu__body');
 const menuButton = document.querySelector('.menu__hamburger');
 const body = document.body;
@@ -53,19 +50,35 @@ for (let elm of elementsRight) {
   observer.observe(elm);
 }
 
-// function getRandomElement(arr) {
-//   let randIndex = Math.floor(Math.random()*arr.length);
-//   console.log(arr[randIndex]);
-//   return arr[randIndex];
-// }
 
-// getRandomElement (models)
 
-// function changeImage() {
-//   const images = document.querySelectorAll('.looks__grid-item');
-//   images.forEach(image => {
 
-//   })
-// }
+const models = [
+  model1, model2, model3, model4, model5, model6, model7, model8, model9, model10
+]
+const images = document.querySelectorAll('.looks__grid-item');
 
-// setInterval(changeImage,1000)
+function getRandomElement(arr) {
+  let randIndex = Math.floor(Math.random()*arr.length);
+  return arr[randIndex];
+}
+
+function changeImage() {
+  const randNumber = Math.floor(Math.random()*(3)) + 1; //случайное число от 1 до 3
+
+  for (let i = 1; i <= randNumber; i+=1) {
+    const randSrcImage = getRandomElement(models);
+    const randDomImage = getRandomElement(images);
+    randDomImage.classList.add('looks__grid-item_opacity');
+    setTimeout(() => {
+      randDomImage.src = randSrcImage;
+      randDomImage.classList.remove('looks__grid-item_opacity');
+    },1000)
+  }
+}
+setInterval(changeImage, 2000);
+
+const submitButton = document.querySelector('.form__button-submit');
+submitButton.addEventListener('click', (evt) => {
+  evt.preventDefault();
+})

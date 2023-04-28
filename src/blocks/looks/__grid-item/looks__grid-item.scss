@@ -3,6 +3,8 @@
 .looks__grid-item {
   @include image;
   width: 350px;
+  opacity: 1;
+  transition: opacity 1s ease;
 
   @media screen and (max-width: 1439px) {
     width: 243px;
