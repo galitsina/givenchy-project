@@ -1,14 +1,14 @@
 import './pages/index.scss';
-import model1 from './images/looks/model-1.svg';
-import model2 from './images/looks/model-2.svg';
-import model3 from './images/looks/model-3.svg';
-import model4 from './images/looks/model-4.svg';
-import model5 from './images/looks/model-5.svg';
-import model6 from './images/looks/model-6.svg';
-import model7 from './images/looks/model-7.svg';
-import model8 from './images/looks/model-8.svg';
-import model9 from './images/looks/model-9.svg';
-import model10 from './images/looks/model-10.svg';
+import model1 from './images/looks/model-1.jpg';
+import model2 from './images/looks/model-2.jpg';
+import model3 from './images/looks/model-3.jpg';
+import model4 from './images/looks/model-4.jpg';
+import model5 from './images/looks/model-5.jpg';
+import model6 from './images/looks/model-6.jpg';
+import model7 from './images/looks/model-7.jpg';
+import model8 from './images/looks/model-8.jpg';
+import model9 from './images/looks/model-9.jpg';
+import model10 from './images/looks/model-10.jpg';
 
 const menu = document.querySelector('.menu__body');
 const menuButton = document.querySelector('.menu__hamburger');
@@ -49,9 +49,6 @@ const elementsRight = document.querySelectorAll('.animation__right');
 for (let elm of elementsRight) {
   observer.observe(elm);
 }
-
-
-
 
 const models = [
   model1, model2, model3, model4, model5, model6, model7, model8, model9, model10
