@@ -1,0 +1,28 @@
+.menu__body {
+  min-height: 900px;
+  height: 100%;
+  width: 100%;
+  background:  linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 480px,
+    rgba(0, 0, 0, 0.4) 480px,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+  position: absolute;
+  left: -100%;
+  top: 0;
+  z-index: 5;
+  transition: ease 0.1s;
+
+  @media screen and (max-width: 767px) {
+    min-height: 426px;
+    background:  linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 400px,
+    rgba(0, 0, 0, 0.4) 400px,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+  }
+}

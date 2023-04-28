@@ -1,0 +1,16 @@
+@import '../../../helpers/mixins';
+@import '../../../helpers/variables';
+
+.menu__icon-text {
+  @include title;
+  font-size: $font-size-paragraph-xsmall;
+  line-height: $line-height-paragraph-xsmall;
+  letter-spacing: $letter-spacing-2;
+  z-index: 1;
+
+  @media screen and (max-width: 767px) {
+    font-size: $font-size-paragraph-xxsmall;
+    line-height: $line-height-paragraph-xxsmall;
+  }
+}
+

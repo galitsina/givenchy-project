@@ -1,0 +1,15 @@
+@import '../../../helpers/mixins';
+
+.header__img {
+  @include image;
+  margin-left: 24px;
+  width: 700px;
+
+  @media screen and (max-width: 1023px) {
+    margin-left: 0;
+    width: calc(100% - 267px);
+  }
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+}

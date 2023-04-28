@@ -1,0 +1,30 @@
+@import '../../../helpers/mixins';
+@import '../../../helpers/variables';
+
+.menu__hamburger {
+  @include default_box;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: ease 0.4s;
+  z-index: 10;
+
+  &:hover {
+    .menu__hamburger-line {
+      background: $color-white;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 24px;
+    height: 24px;
+    gap: 6px;
+  }
+}

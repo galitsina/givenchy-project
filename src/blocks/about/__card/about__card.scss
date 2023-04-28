@@ -1,0 +1,26 @@
+@import '../../../helpers/mixins';
+
+.about__card {
+  @include default_box;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 82px;
+  position: relative;
+  overflow: hidden;
+
+  &:last-child {
+    margin-bottom: 0px;
+  }
+
+  @media screen and (max-width: 1023px) {
+    margin-bottom: 70px;
+    gap: 60px;
+  }
+  @media screen and (max-width: 767px) {
+    margin-bottom: 40px;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
