@@ -2,6 +2,7 @@
 
 .header {
   @include section;
+  min-height: 426px;
   position: relative;
   background-color: #E7E7E2;
   overflow: hidden;
