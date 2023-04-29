@@ -17,14 +17,17 @@
 @import '../blocks/menu/__body/_active/menu__body_active.scss';
 @import '../blocks/menu/__list/menu__list.scss';
 @import '../blocks/menu/__link/menu__link.scss';
+@import '../blocks/animation/animation.scss';
 @import '../blocks/about/about.scss';
 @import '../blocks/about/__heading/about__heading.scss';
 @import '../blocks/about/__title/about__title.scss';
+@import '../blocks/about/__container-paragraph/about__container-paragraph.scss';
 @import '../blocks/about/__paragraph/about__paragraph.scss';
 @import '../blocks/about/__paragraph/_size/about__paragraph_size_big.scss';
 @import '../blocks/about/__paragraph/_size/about__paragraph_size_small.scss';
-@import '../blocks/about/__card/_reverse/about__card_reverse.scss';
 @import '../blocks/about/__card/about__card.scss';
+@import '../blocks/about/__card/_order/about__card_order_reverse.scss';
+@import '../blocks/about/__card/_order/about__card_order_direct.scss';
 @import '../blocks/about/__card-img/about__card-img.scss';
 @import '../blocks/about/__card-img/_size/about__card-img_size_bella.scss';
 @import '../blocks/about/__card-img/_size/about__card-img_size_kendall.scss';
@@ -33,7 +36,7 @@
 @import '../blocks/about/__quote/_position/about__quote_position_bella.scss';
 @import '../blocks/about/__quote/_position/about__quote_position_kendall.scss';
 @import '../blocks/looks/looks.scss';
-@import '../blocks/looks/__container/looks__container.css';
+@import '../blocks/looks/__container/looks__container.scss';
 @import '../blocks/looks/__title/looks__title.scss';
 @import '../blocks/looks/__grid/looks__grid.scss';
 @import '../blocks/looks/__grid-item/looks__grid-item.scss';

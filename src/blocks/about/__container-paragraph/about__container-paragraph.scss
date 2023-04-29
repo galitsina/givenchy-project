@@ -1,0 +1,9 @@
+.about__container-paragraph {
+  align-self: flex-start;
+  padding-top: 168px;
+
+  @media screen and (max-width: 1023px) {
+    align-self: center;
+    padding-top: 0px;
+  }
+}

@@ -1,0 +1,10 @@
+.looks__container {
+  margin: 0 auto;
+
+  @media screen and (max-width: 1023px) {
+    margin-top: 20px;
+  }
+  @media screen and (max-width: 767px) {
+    margin-top: 0px;
+  }
+}

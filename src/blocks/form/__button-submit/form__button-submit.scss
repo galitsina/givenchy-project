@@ -3,7 +3,7 @@
 
 .form__button-submit {
   @include title;
-  font-family: 'Prompt', sans-serif;
+  font-family: 'Prompt', Arial, sans-serif;
   font-size: $font-size-paragraph-xsmall;
   line-height: $line-height-paragraph-xsmall;
   letter-spacing: $letter-spacing-2;
@@ -21,5 +21,9 @@
 
   @media screen and (max-width: 767px) {
     width: 100%;
+    font-size: $font-size-paragraph-xxsmall;
+    line-height: $line-height-paragraph-xxsmall;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }

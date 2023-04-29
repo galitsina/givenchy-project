@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   margin-bottom: 80px;
+
+  @media screen and (max-width: 1023px) {
+    margin-bottom: 60px;
+  }
+  @media screen and (max-width: 767px) {
+    margin-bottom: 40px;
+  }
 }
 
 @mixin title {

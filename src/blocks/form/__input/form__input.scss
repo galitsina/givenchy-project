@@ -3,7 +3,7 @@
 
 .form__input {
   @include paragraph;
-  font-family: 'Prompt', sans-serif;
+  font-family: 'Prompt', Arial, sans-serif;
   font-size: $font-size-paragraph-xsmall;
   line-height: $line-height-paragraph-xsmall;
   padding: 12px 24px;
@@ -14,5 +14,7 @@
 
   @media screen and (max-width: 767px) {
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
