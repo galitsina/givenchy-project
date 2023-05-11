@@ -1,0 +1,10 @@
+.about__card_order_reverse {
+  flex-direction: row-reverse;
+
+  @media screen and (max-width: 1023px) {
+    margin-bottom: 0px;
+  }
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+}

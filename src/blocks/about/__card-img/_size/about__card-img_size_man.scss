@@ -1,0 +1,10 @@
+.about__card-img_size_man {
+  width: 618px;
+
+  @media screen and (max-width: 1023px) {
+    width: 304px;
+  }
+  @media screen and (max-width: 767px) {
+    width: 280px;
+  }
+}

@@ -1,0 +1,12 @@
+@import '../../../helpers/mixins';
+@import '../../../helpers/variables';
+
+.menu__link {
+  @include title;
+  text-decoration: none;
+  font-size: $font-size-paragraph-xsmall;
+  font-weight: $line-height-paragraph-xsmall;
+  color: $color-white;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}

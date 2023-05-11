@@ -1,0 +1,13 @@
+@import '../../../helpers/mixins';
+
+.form__field-input {
+  @include default_box;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+}

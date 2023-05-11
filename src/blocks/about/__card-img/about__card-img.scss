@@ -1,0 +1,5 @@
+@import '../../../helpers/mixins';
+
+.about__card-img {
+  @include image;
+}

@@ -1,0 +1,17 @@
+@import '../../../helpers/variables';
+
+.footer__container {
+  margin: 0 auto;
+  width: 700px;
+  color: $color-white;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  @media screen and (max-width: 1023px) {
+    width: 486px;
+  }
+  @media screen and (max-width: 767px) {
+    width: 280px;
+  }
+}

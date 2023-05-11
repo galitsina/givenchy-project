@@ -1,0 +1,7 @@
+@import '../../helpers/mixins';
+
+.menu {
+  @include default_box;
+  position: absolute;
+  width: 100%;
+}

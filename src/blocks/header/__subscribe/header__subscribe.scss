@@ -1,0 +1,30 @@
+@import '../../../helpers/mixins';
+@import '../../../helpers/variables';
+
+.header__subscribe {
+  @include title;
+  color: $color-white;
+  background-color: $color-black;
+  text-decoration: none;
+  font-size: $font-size-paragraph-xsmall;
+  line-height: $line-height-paragraph-xsmall;
+  letter-spacing: $letter-spacing-2;
+  padding: 12px 31px;
+  cursor: pointer;
+  transition: ease 0.4s;
+
+  &:hover {
+    color: $color-black;
+    background-color: $color-white;
+  }
+
+  @media screen and (max-width: 767px) {
+    font-size: $font-size-paragraph-xxsmall;
+    line-height: $line-height-paragraph-xxsmall;
+    padding: 12px 13px;
+  }
+
+  @media screen and (max-width: 400px) {
+    align-self: center;
+  }
+}

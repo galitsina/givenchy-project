@@ -1,0 +1,14 @@
+@import '../../../helpers/mixins';
+@import '../../../helpers/variables';
+
+.footer__paragraph {
+  @include paragraph;
+  font-size: $font-size-paragraph-small;
+  line-height: $line-height-paragraph-small;
+  text-align: center;
+
+  @media screen and (max-width: 767px) {
+    font-size: $font-size-paragraph-xsmall;
+    line-height: $line-height-paragraph-xsmall;
+  }
+}
